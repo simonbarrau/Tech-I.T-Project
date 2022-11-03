@@ -5,7 +5,10 @@ import Tech from './Components/Tech/Tech';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function App() {
+
+   
   return (    <>
+  
     <BrowserRouter>
 
     <Routes>

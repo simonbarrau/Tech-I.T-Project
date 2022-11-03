@@ -1,19 +1,27 @@
 :root{
-    --clr-neon:hsl(317 100% 54%)
+    --clr-neon:rgb(15, 18, 202);
 }
 
 .div{
 
-    border: 2px solid salmon;
+    border: 2px solid rgb(15, 18, 202);
     background-color: black;
+    height: 980px;
 }
 
+
+
 .tech{
-    font-weight: 900;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: navajowhite;
-    font-size: 80px;
     text-align: center;
+    color: var(--clr-neon);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 6em;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  text-shadow: 0 0 0.99em var(--clr-neon), 0 0 0.900em var(--clr-neon);
+
 }
 
 .carrt{
@@ -68,14 +76,23 @@
      opacity: 1;
  }
 
- .theo{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+ .lionpic{
+    border-radius: 30%;
+   margin-top: 100px;
+   height: 400px;
+   display: inline-block;
+   margin-right: 5%;
+   margin-left: 22%;
  }
 
- .theoo{
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-around;
+ h6{
+    color:white;
  }
+
+ 
+
+  /* @media (prefers-reduced-motion: no-preference) {
+    .lionpic {
+      animation: App-logo-spin infinite 11s linear;
+    }
+  } */

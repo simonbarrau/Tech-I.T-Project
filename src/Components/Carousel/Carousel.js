@@ -1,26 +1,43 @@
 import React from 'react'
 import './Carousel.css'
 import Swal from 'sweetalert2'
+import shapes from '../../Img/shapes-balance.gif'
+
 
 const Carousel = () => {
   return (
     <>
      <div className="conteudo">
         <div className="carrosel">
-            <div className="caixa__card cc__1">PROGRAMADOR <br/> CS</div>
-            <div className="caixa__card cc__2">HTML</div>
-            <div className="caixa__card cc__3">CSS</div>
-            <div className="caixa__card cc__4">JS</div>
-            <div className="caixa__card cc__5">GIT</div>
-            <div className="caixa__card cc__6">REACT</div>
-            <div className="caixa__card cc__7">LÓGICA</div>
+            <div className="caixa__card cc__1">HOLA  <br/> THEO</div>
+            <div className="caixa__card cc__2">
+                    <img src="https://cdn3d.iconscout.com/3d/premium/thumb/headphone-3994316-3307650.png" width="100%"
+                    height="100%"/>
+                </div>
+            <div className="caixa__card cc__3">
+                    <img src="https://cdn3d.iconscout.com/3d/premium/thumb/weightlifter-lifting-free-weight-3895499-3255871.png" width="100%"
+                     height="100%"/>
+                </div>
+            <div className="caixa__card cc__4">
+                    <img src="https://cdn3d.iconscout.com/3d/premium/thumb/weightlifter-working-out-with-dumbbells-3895490-3255862.png" width="100%"
+                    height="100%"/>
+                    </div>
+            <div className="caixa__card cc__5">
+                    <img src="https://cdn3d.iconscout.com/3d/premium/thumb/man-lifting-dumbbells-3895486-3255858.png" width="100%"
+                    height="100%"/>
+                    </div>
+            <div className="caixa__card cc__6">
+                    <img src="https://cdn3d.iconscout.com/3d/premium/thumb/male-weightlifter-lying-on-bench-and-lifting-weight-3895509-3255881.png" width="100%"
+                    height="100%"/>
+                    </div>
+            <div className="caixa__card cc__7">
+                  <img src="https://cdn3d.iconscout.com/3d/premium/thumb/man-doing-pushups-with-dumbbells-3895489-3255861.png" width="100%"   height="100%"/>
+                </div>
             <div className="caixa__card cc__8">
-    <a  href='https://i.etsystatic.com/22958011/r/il/537e6e/2886325626/il_fullxfull.2886325626_ajjn.jpg' target="_blank">
-
-
-                <img src="https://i.etsystatic.com/22958011/r/il/537e6e/2886325626/il_fullxfull.2886325626_ajjn.jpg" width="100%"
+                
+                <img src="https://cdn3d.iconscout.com/3d/premium/thumb/powerlifter-doing-training-3895502-3255874.png" width="100%"
                 height="100%"/>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -30,13 +47,20 @@ const Carousel = () => {
     
 
         
-                <div id="playlist__btn" className="music-icon"><i class="material-icons">    <img src='https://cdn3d.iconscout.com/3d/premium/thumb/headphone-3994316-3307650.png' height="120px"/>
+                <div id="playlist__btn" className="music-icon"><i className="material-icons">  
+                <img src="https://media.giphy.com/media/3ornjNM6wlq8i87aQU/giphy.gif" height="120px"/>
                 
 
 </i></div> 
+</div>
 
 
-            </div>
+
+
+
+
+
+
             
     </>
 
